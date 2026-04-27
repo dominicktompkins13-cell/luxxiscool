@@ -2,8 +2,8 @@ import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Search, Gamepad2, TrendingUp, Filter, Github, Zap, ShieldCheck } from 'lucide-react';
 import gamesData from './data/games.json';
-import GameCard from './components/GameCard.jsx';
-import GamePlayer from './components/GamePlayer.jsx';
+import GameCard from './components/GameCard';
+import GamePlayer from './components/GamePlayer';
 
 const CATEGORIES = ['All', 'Puzzle', 'Action', 'Casual', 'Classic', 'Sandbox'];
 
@@ -69,13 +69,25 @@ export default function App() {
           ))}
         </nav>
 
-        <div className="mt-auto bg-indigo-500/10 border border-indigo-500/20 rounded-2xl p-4">
-          <div className="text-sm font-medium text-indigo-300 flex items-center gap-2">
-            <Zap className="w-3 h-3" /> System Status
+        <div className="mt-auto flex flex-col gap-4">
+          <div className="bg-indigo-500/10 border border-indigo-500/20 rounded-2xl p-4">
+            <div className="text-sm font-medium text-indigo-300 flex items-center gap-2">
+              <Zap className="w-3 h-3" /> System Status
+            </div>
+            <div className="flex items-center gap-2 mt-1">
+              <div className="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.5)]"></div>
+              <span className="text-xs text-slate-300 font-medium">All realms active</span>
+            </div>
           </div>
-          <div className="flex items-center gap-2 mt-1">
-            <div className="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.5)]"></div>
-            <span className="text-xs text-slate-300 font-medium">All realms active</span>
+
+          <div className="bg-gradient-to-br from-cyan-500/10 to-indigo-500/10 border border-white/5 rounded-2xl p-4">
+            <div className="text-[10px] font-bold text-cyan-400 uppercase tracking-widest mb-1">
+              Safety First
+            </div>
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" />
+              <span className="text-xs text-slate-200 font-bold italic">100% AI-FREE ZONE</span>
+            </div>
           </div>
         </div>
       </aside>
@@ -109,7 +121,7 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/30 to-transparent pointer-events-none"></div>
               <div className="relative flex flex-col justify-end min-h-[160px] md:min-h-[200px]">
                 <span className="text-[10px] font-bold uppercase tracking-widest text-indigo-200 mb-2 flex items-center gap-2">
-                   <ShieldCheck className="w-3 h-3" /> Verified Safe
+                   <ShieldCheck className="w-3 h-3 text-emerald-400" /> Human Curated • No AI
                 </span>
                 <h2 className="text-4xl md:text-5xl font-black mb-4 tracking-tighter leading-none italic uppercase">
                   Featured <span className="text-indigo-400">Releases</span>

@@ -7,6 +7,18 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      window.onerror = function(msg, url, line, col, error) {
+        var root = document.getElementById('root');
+        if (root && root.innerHTML === '') {
+          root.innerHTML = '<div style="color:red;padding:20px;font-family:sans-serif;">' +
+            '<h2>Runtime Error</h2>' +
+            '<p>' + msg + '</p>' +
+            '<pre>' + error?.stack + '</pre>' +
+            '</div>';
+        }
+      };
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
