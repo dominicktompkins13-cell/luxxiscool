@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Arcade Unblocked - PlayBox
 
-# Run and deploy your AI Studio app
+A modern, vanilla JS arcade platform built for speed and portability.
 
-This contains everything you need to run your app locally.
+## 🚀 How to Save to GitHub
+1. Create a new repository on GitHub.
+2. Download these files or push them using Git.
+3. Your main files are:
+   - `index.html`
+   - `main.js`
+   - `style.css`
+   - `games.json`
 
-View your app in AI Studio: https://ai.studio/apps/28f49418-b0a2-4341-8d5b-4041a6a52389
+## 🌐 How to deploy to GitHub Pages
+1. Go to your repo **Settings** -> **Pages**.
+2. Set the Source to **Deploy from a branch**.
+3. Select your `main` branch and the `/ root` folder.
+4. Click Save. Your site will be live at `https://yourname.github.io/reponame/`
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠 Features
+- **Frosted Glass UI**: Ultra-modern look and feel.
+- **Vanilla JS**: No complex build steps needed for basic hosting.
+- **No-AI Branding**: Human-curated content message.
+- **Search & Filter**: Find your favorite games instantly.
+- **Fullscreen Support**: Use the "Immerse" button for better sessions.

@@ -2,7 +2,7 @@
   {
     "id": "2048",
     "title": "2048",
-    "description": "Join the numbers and get to the 2048 tile!",
+    "description": "Join the numbers and get to the 2048 tile! A classic logic and math puzzle.",
     "category": "Puzzle",
     "url": "https://play2048.co/",
     "thumbnail": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?q=80&w=400&h=300&auto=format&fit=crop",
@@ -11,7 +11,7 @@
   {
     "id": "tetris",
     "title": "Tetris",
-    "description": "The classic block-stacking puzzle game.",
+    "description": "The classic block-stacking puzzle game. Simple to learn, impossible to master.",
     "category": "Classic",
     "url": "https://tetris.com/play-tetris",
     "thumbnail": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?q=80&w=400&h=300&auto=format&fit=crop",
@@ -20,7 +20,7 @@
   {
     "id": "slope",
     "title": "Slope",
-    "description": "Drive a ball down a series of slopes and obstacles.",
+    "description": "Drive a ball down a series of slopes. 3D fast-paced skill challenge.",
     "category": "Action",
     "url": "https://slope-game.github.io/",
     "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400&h=300&auto=format&fit=crop",
@@ -29,7 +29,7 @@
   {
     "id": "flappy-bird",
     "title": "Flappy Bird",
-    "description": "Navigate through pipes as far as possible.",
+    "description": "Navigate through pipes as far as possible. Simple arcade difficulty.",
     "category": "Casual",
     "url": "https://flappybird.io/",
     "thumbnail": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?q=80&w=400&h=300&auto=format&fit=crop",
@@ -38,7 +38,7 @@
   {
     "id": "minecraft-classic",
     "title": "Minecraft Classic",
-    "description": "Classic creative mode in the browser.",
+    "description": "Creative building mode in the browser. Construct your digital world.",
     "category": "Sandbox",
     "url": "https://classic.minecraft.net/",
     "thumbnail": "https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=400&h=300&auto=format&fit=crop",
